@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoURI = "mongodb+srv://ips-mongo:Mahanadi@4@cluster0.pfh2n.mongodb.net/Cluster0?retryWrites=true&w=majority"
+const mongoURI = "mongodb://Developement:Kukku%401975@15.207.57.45:27017/Orgzstack?&authSource=admin"
 
 const connectToMongo = ()=>{
     mongoose.connect(mongoURI, ()=>{
